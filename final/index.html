@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 
+        Lines 14 and 15 (next 2 lines) link style.css and main.js with index.html. 
+        Think of is as style (your closet) and functionality (your bathroom) being invited ivited in to the same house as index.html.
+        And the html can accress the look and tools it's components need to function. Like going to your closet to pick out clothes. 
+        And going to your bathroom to brush your team when you need to (monring and evening).
+    -->
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Spiderman Reponse Queue</title>
+</head>
+<!-- This is our body -->
+
+<body>
+    <div class="mainpage">
+        <!-- Text description and title that get displayed -->
+        <h1> Spiderman Response Queue</h1>
+        <h4> Hi, it's your friendly neighborhood Spiderman here. Submit a request and I will sling over asap.</h4>
+
+        <!-- Form element that collects user input. And sends it to the JS function 
+            submission_confirmation(e) when a submission happens.
+        -->
+        <div class="query-form">
+            <form>
+                <div class="form-inputs">
+                    <label for="name"> Name (First and Last)</label>
+                    <input type="text" id="name" placeholder="Tony Stark">
+                </div>
+
+                <div class="form-inputs">
+                    <label for="location">Location</label>
+                    <input type="text" id="location" placeholder="Times Square">
+                </div>
+
+                <div class="form-inputs">
+                    <label for="incident">Incident Description</label>
+                    <input type="text" id="incident" placeholder="My dog ate my homework.">
+                </div>
+                <!-- Button that triggers submission event -->
+                <button type="submit" onclick="submission_confirmation(event)">Submit</button>
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+
+
+
+</html>

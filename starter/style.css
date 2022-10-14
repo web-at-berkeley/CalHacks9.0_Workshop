@@ -1,0 +1,32 @@
+/* TODO: Fill in body, .mainpage, and button to make our website look like one in powerpoint */
+
+body {
+    /* FILL IN HERE */
+}
+
+label {
+    padding-right: 10px
+}
+
+button {
+    /* FILL IN HERE */
+    
+}
+
+.mainpage {
+    /* FILL IN HERE */
+}
+
+
+.query-form {
+    position: relative;
+    margin-top: 50px
+    
+}
+
+.form-inputs {
+    margin: 15px;
+    
+}
+
+
