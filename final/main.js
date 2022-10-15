@@ -14,17 +14,6 @@ function submission_confirmation(e) {
     console.log(name + ' needs your help at location: ' + location);
     console.log(incident);
 
-    // To actually send a text msg, make sure to set up TWILLIO and uncomment line 18 (next line)
-    send_text_msg()
-
     // Alert your user that the text msg to Spiderman is sent
     alert("Your request has been sent to Spiderman!")
-}
-
-
-// Function for sending actual test msgs. 
-// Built using Twilio api on free trial
-function send_text_msg() {
-    console.log("sending msg....")
-
 }

@@ -26,27 +26,24 @@
         <!-- Form element that collects user input. And sends it to the JS function 
             submission_confirmation(e) when a submission happens.
         -->
-        <div class="query-form">
-            <form>
-                <div class="form-inputs">
-                    <label for="name"> Name (First and Last)</label>
-                    <input type="text" id="name" placeholder="Tony Stark">
-                </div>
+        <form>
+            <div class="form-inputs">
+                <label for="name"> Name (First and Last):</label>
+                <input type="text" id="name" placeholder="Tony Stark">
+            </div>
 
-                <div class="form-inputs">
-                    <label for="location">Location</label>
-                    <input type="text" id="location" placeholder="Times Square">
-                </div>
+            <div class="form-inputs">
+                <label for="location">Location:</label>
+                <input type="text" id="location" placeholder="Times Square">
+            </div>
 
-                <div class="form-inputs">
-                    <label for="incident">Incident Description</label>
-                    <input type="text" id="incident" placeholder="My dog ate my homework.">
-                </div>
-                <!-- Button that triggers submission event -->
-                <button type="submit" onclick="submission_confirmation(event)">Submit</button>
-            </form>
-
-        </div>
+            <div class="form-inputs">
+                <label for="incident">Incident Description:</label>
+                <input type="text" id="incident" placeholder="My dog ate my homework.">
+            </div>
+            <!-- Button that triggers submission event -->
+            <button type="submit" onclick="submission_confirmation(event)">Submit</button>
+        </form>
 
     </div>
 
